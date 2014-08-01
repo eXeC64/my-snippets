@@ -52,6 +52,10 @@ snippet map "std::map"
 std::map<${1:T1,T2}> ${2:map};
 endsnippet
 
+snippet sptr "shared pointer"
+boost::shared_ptr<${1:T}> ${2};
+endsnippet
+
 #Mantid specific stuff
 snippet log "mantid logging"
 g_log.${1:debug}() << ${2} << std::endl;
