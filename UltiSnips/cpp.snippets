@@ -34,7 +34,7 @@ private:
 endsnippet
 
 snippet mfun "method function"
-${1:void} ${2:`!p snip.rv = snip.basename or "name"`}::${3}(${4})
+${1:void} ${2:`!p snip.rv = snip.basename or "name"`}::${3:methodName}(${4:/*parameters*/})
 {
 	${0:${VISUAL}}
 }
