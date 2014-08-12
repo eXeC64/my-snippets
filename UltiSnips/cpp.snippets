@@ -66,6 +66,10 @@ snippet log "mantid logging"
 g_log.${1:debug}() << ${2} << std::endl;
 endsnippet
 
+snippet strconv "convert a string"
+Mantid::Kernel::Strings::convert<${3:T}>(${1:src}, ${2:dst});
+endsnippet
+
 #Common operations
 snippet strsplit "split string"
 boost::split(${1:dstVec}, ${2:srcString}, boost::is_any_of("${3:\n}"));
