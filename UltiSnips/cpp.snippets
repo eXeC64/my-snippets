@@ -78,20 +78,20 @@ snippet cout "cout"
 std::cout << ${1} << std::endl;
 endsnippet
 
-snippet str "std::string"
-std::string ${1:string};
+snippet str "std::string" w
+std::string ${0}
 endsnippet
 
-snippet vec "std::vector"
-std::vector<${1:T}> ${2:vec};
+snippet vec "std::vector" w
+std::vector<${1:T}> ${0}
 endsnippet
 
-snippet map "std::map"
-std::map<${1:T1,T2}> ${2:map};
+snippet map "std::map" w
+std::map<${1:T1,T2}> ${0}
 endsnippet
 
-snippet sptr "shared pointer"
-boost::shared_ptr<${1:T}> ${2};
+snippet sptr "shared pointer" w
+boost::shared_ptr<${1:T}> ${0}
 endsnippet
 
 #Mantid specific stuff
