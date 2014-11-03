@@ -23,6 +23,13 @@ else
 }
 endsnippet
 
+snippet it "Iterate over a container (short version)"
+for(auto ${1:val} : ${2:container})
+{
+	${0:${VISUAL}}
+}
+endsnippet
+
 snippet iter "Iterate over a container"
 for(auto ${1:it} = ${2:container}.begin(); $1 != $2.end(); ++$1)
 {
