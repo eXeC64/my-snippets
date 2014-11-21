@@ -106,19 +106,19 @@ boost::shared_ptr<${1:T}>
 endsnippet
 
 snippet dc "dynamic cast" w
-dynamic_cast<${1:T}>(${0})
+dynamic_cast<${1:T}>(${2:${VISUAL}})
 endsnippet
 
 snippet sc "static cast" w
-static_cast<${1:T}>(${0})
+static_cast<${1:T}>(${2:${VISUAL}})
 endsnippet
 
 snippet bc "boost dynamic cast" w
-boost::dynamic_pointer_cast<${1:T}>(${0})
+boost::dynamic_pointer_cast<${1:T}>(${2:${VISUAL}})
 endsnippet
 
 snippet lc "boost lexical cast" w
-boost::lexical_cast<${1:T}>(${0})
+boost::lexical_cast<${1:T}>(${2:${VISUAL}})
 endsnippet
 
 #Mantid specific stuff
