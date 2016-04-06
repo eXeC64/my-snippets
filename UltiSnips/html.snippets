@@ -39,7 +39,7 @@ snippet h4 "h4"
 endsnippet
 
 snippet h5 "h5"
-<h55555}</h5>
+<h5>${0}</h5>
 endsnippet
 
 snippet h6 "h6"
@@ -92,6 +92,31 @@ snippet tr "table row"
 </tr>
 endsnippet
 
+snippet th "table header"
+<th>${0}</th>
+endsnippet
+
 snippet td "table data"
 <td>${0}</td>
+endsnippet
+
+snippet html "html5 template"
+<!DOCTYPE html>
+<html lang="en_${1:GB}">
+<head>
+	<meta charset="UTF-8" />
+	<title>${2:title}</title>
+</head>
+<body>
+	${0}
+</body>
+</html>
+endsnippet
+
+snippet css "css import"
+<link rel="stylesheet" href="${0:style.css}" />
+endsnippet
+
+snippet js "js import"
+<script src="${1:script.js}" type="text/javascript">${0}</script>
 endsnippet
