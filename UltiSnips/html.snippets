@@ -18,7 +18,7 @@ endsnippet
 
 snippet p "paragraph"
 <p>
-	${0}
+${0}
 </p>
 endsnippet
 
@@ -47,19 +47,19 @@ snippet h6 "h6"
 endsnippet
 
 snippet span "span" w
-<span>${0}</span>
+<span>${1}</span>${0}
 endsnippet
 
 snippet span. "span class" w
-<span class="${1:class}">${0}</span>
+<span class="${1:class}">${2}</span>${0}
 endsnippet
 
 snippet span# "span id" w
-<span id="${1:id}">${0}</span>
+<span id="${1:id}">${2}</span>${0}
 endsnippet
 
 snippet a "anchor" w
-<a href="${1:url}">${0}</a>
+<a href="${1:url}">${2}</a>${0}
 endsnippet
 
 snippet div "div"
@@ -101,15 +101,15 @@ snippet td "table data"
 endsnippet
 
 snippet em "emphasis"
-<em>${0}</em>
+<em>${1}</em>${0}
 endsnippet
 
 snippet pre "pre"
-<pre>${0}</pre>
+<pre>${1}</pre>${0}
 endsnippet
 
 snippet code "code"
-<code>${0}</code>
+<code>${1}</code>${0}
 endsnippet
 
 snippet html "html5 template"
