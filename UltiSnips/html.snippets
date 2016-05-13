@@ -88,8 +88,8 @@ endsnippet
 
 snippet tr "table row"
 <tr>
-	${0}
-</tr>
+	${1}
+</tr>${0}
 endsnippet
 
 snippet th "table header" w
@@ -100,23 +100,23 @@ snippet td "table data" w
 <td>${1}</td>${0}
 endsnippet
 
-snippet em "emphasis"
+snippet em "emphasis" w
 <em>${1}</em>${0}
 endsnippet
 
-snippet pre "pre"
+snippet pre "pre" w
 <pre>${1}</pre>${0}
 endsnippet
 
-snippet code "code"
+snippet code "code" w
 <code>${1}</code>${0}
 endsnippet
 
-snippet q "quote"
+snippet q "quote" w
 <q>${1}</q>${0}
 endsnippet
 
-snippet ref "reference"
+snippet ref "reference" w
 <a class=ref href="#${1:name}">${2}</a>${0}
 endsnippet
 
